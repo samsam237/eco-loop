@@ -1,121 +1,15 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="ECO-LOOP connecte les producteurs, collecteurs et valorisateurs pour transformer les matières résiduelles en ressources.">
-<meta property="og:title" content="ECO-LOOP — Donner une seconde vie aux matières">
-<title>ECO-LOOP</title>
-<link rel="stylesheet" href="css/style.css">
-</head>
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="ECO-LOOP aide à donner une nouvelle valeur à ce qui existe déjà."><title>ECO-LOOP — Donner une nouvelle valeur à ce qui existe déjà</title><link rel="stylesheet" href="css/style.css"></head>
 <body>
-<header class="nav">
-  <a class="brand" href="index.html"><span class="brand-mark">↻</span><span>ECO<span>-</span>LOOP</span></a>
-  <nav>
-    <a href="#solution"><span data-i18n="nav.solution">Solution</span></a><a href="#process"><span data-i18n="nav.process">Comment ça marche</span></a><a href="#materials"><span data-i18n="nav.materials">Matières</span></a><a href="#vision"><span data-i18n="nav.vision">Vision</span></a>
-  </nav>
-  <button class="btn btn-light" id="langToggle" type="button">English</button><a class="btn btn-dark" href="demo.html"><span data-i18n="nav.demo">Explorer la démo</span></a>
-</header>
-
+<header class="nav"><a class="brand" href="index.html"><span class="brand-mark">↻</span><span>ECO<span>-</span>LOOP</span></a><nav><a href="#probleme" data-i18n="nav.problem">Le problème</a><a href="#boucle" data-i18n="nav.loop">La boucle</a><a href="#preuve" data-i18n="nav.proof">Ce que l'on suit</a></nav><div class="nav-actions"><button class="lang" id="langToggle">English</button><a class="btn btn-dark" href="demo.html" data-i18n="nav.demo">Voir la démo</a></div></header>
 <main>
-<section class="hero">
-  <div class="hero-copy reveal">
-    <div class="eyebrow"><span data-i18n="hero.eyebrow">Économie circulaire · Yaoundé · Cameroun</span></div>
-    <h1><span data-i18n="hero.title">Donner une <em>seconde vie</em> aux matières.</span></h1>
-    <p class="lead"><span data-i18n="hero.lead">ECO-LOOP connecte ceux qui produisent des matières résiduelles avec ceux qui peuvent les réutiliser, les transformer ou les recycler.</span></p>
-    <div class="actions"><a class="btn btn-dark btn-lg" href="demo.html"><span data-i18n="hero.demo">Explorer ECO-LOOP →</span></a><a class="text-link" href="#process"><span data-i18n="hero.process">Voir comment ça marche ↓</span></a></div>
-  </div>
-  <div class="hero-visual reveal">
-    <div class="loop-orbit">
-      <div class="node n1"><b>01</b><span><span data-i18n="actor.p">Producteur</span></span></div>
-      <div class="node n2"><b>02</b><span>ECO-LOOP</span></div>
-      <div class="node n3"><b>03</b><span><span data-i18n="actor.c">Collecteur</span></span></div>
-      <div class="node n4"><b>04</b><span><span data-i18n="actor.v">Valorisateur</span></span></div>
-      <div class="center-node"><span>↻</span><small>MATIÈRE<br>→ RESSOURCE</small></div>
-    </div>
-  </div>
-</section>
-
-<section class="problem section">
-  <div class="section-head reveal"><div class="eyebrow"><span data-i18n="problem.eyebrow">Le problème</span></div><h2><span data-i18n="problem.title">Et si un déchet n'était pas vraiment un déchet ?</span></h2><p><span data-i18n="problem.lead">Des matières encore utiles existent déjà. Le défi est de les faire circuler au bon endroit, au bon moment et à un coût viable.</span></p></div>
-  <div class="grid-4">
-    <article class="card reveal"><span class="card-icon">◌</span><h3><span data-i18n="problem.c1">Des matières perdues</span></h3><p><span data-i18n="problem.p1">Cartons, plastiques, bois, verre et autres matières peuvent encore avoir une valeur.</span></p></article>
-    <article class="card reveal"><span class="card-icon">↔</span><h3><span data-i18n="problem.c2">Une offre dispersée</span></h3><p><span data-i18n="problem.p2">Celui qui possède une matière ne connaît pas forcément celui qui la recherche.</span></p></article>
-    <article class="card reveal"><span class="card-icon">⌁</span><h3><span data-i18n="problem.c3">Une logistique complexe</span></h3><p><span data-i18n="problem.p3">Collecte, transport et regroupement peuvent rendre une opération non rentable.</span></p></article>
-    <article class="card reveal"><span class="card-icon">⌾</span><h3><span data-i18n="problem.c4">Peu de visibilité</span></h3><p><span data-i18n="problem.p4">Après la collecte, il est souvent difficile de suivre le parcours de la matière.</span></p></article>
-  </div>
-</section>
-
-<section id="solution" class="solution section dark-section">
-  <div class="section-head reveal"><div class="eyebrow"><span data-i18n="solution.eyebrow">La solution</span></div><h2><span data-i18n="solution.title">ECO-LOOP transforme les flux de déchets en chaînes de valeur.</span></h2><p><span data-i18n="solution.lead">Une infrastructure qui relie les acteurs, qualifie les matières et organise leur parcours jusqu'à leur prochaine utilisation.</span></p></div>
-  <div class="actors">
-    <article class="actor reveal"><div class="actor-num">01</div><h3>Producteur</h3><p><span data-i18n="actor.pd">Déclare une matière disponible : type, quantité, qualité, localisation et disponibilité.</span></p><span><span data-i18n="actor.ps">→ Déclarer</span></span></article>
-    <article class="actor reveal"><div class="actor-num">02</div><h3>Valorisateur</h3><p><span data-i18n="actor.vd">Indique les matières recherchées et les caractéristiques dont il a besoin.</span></p><span><span data-i18n="actor.vs">→ Rechercher</span></span></article>
-    <article class="actor reveal"><div class="actor-num">03</div><h3>Collecteur</h3><p><span data-i18n="actor.cd">Assure collecte, transport, regroupement et pesée.</span></p><span><span data-i18n="actor.cs">→ Acheminer</span></span></article>
-    <article class="actor featured reveal"><div class="actor-num">04</div><h3>ECO-LOOP</h3><p><span data-i18n="actor.ed">Coordonne qualification, matching, logistique, transactions, traçabilité et données.</span></p><span><span data-i18n="actor.es">→ Orchestrer</span></span></article>
-  </div>
-</section>
-
-<section id="process" class="section">
-  <div class="section-head reveal"><div class="eyebrow"><span data-i18n="process.eyebrow">Le parcours</span></div><h2><span data-i18n="process.title">Une matière. Un parcours. Une nouvelle vie.</span></h2></div>
-  <div class="steps">
-    <div class="step reveal"><b>01</b><div><h3 data-i18n="step.1">Déclarer</h3><p data-i18n="step.1d">Le producteur renseigne sa matière et sa disponibilité.</p></div></div>
-    <div class="step reveal"><b>02</b><div><h3 data-i18n="step.2">Qualifier</h3><p data-i18n="step.2d">La matière est décrite, contrôlée et progressivement qualifiée par les données.</p></div></div>
-    <div class="step reveal"><b>03</b><div><h3 data-i18n="step.3">Matcher</h3><p data-i18n="step.3d">ECO-LOOP rapproche offre et demande selon matière, volume, qualité, distance et disponibilité.</p></div></div>
-    <div class="step reveal"><b>04</b><div><h3 data-i18n="step.4">Collecter</h3><p data-i18n="step.4d">Un collecteur organise le déplacement de la matière.</p></div></div>
-    <div class="step reveal"><b>05</b><div><h3 data-i18n="step.5">Peser & tracer</h3><p data-i18n="step.5d">Le poids réel et les événements du lot sont enregistrés.</p></div></div>
-    <div class="step reveal"><b>06</b><div><h3 data-i18n="step.6">Valoriser</h3><p data-i18n="step.6d">Le valorisateur donne une seconde vie à la matière.</p></div></div>
-  </div>
-</section>
-
-<section id="materials" class="section soft">
-  <div class="section-head reveal"><div class="eyebrow"><span data-i18n="materials.eyebrow">Les matières</span></div><h2><span data-i18n="materials.title">Une matière. Plusieurs vies.</span></h2><p><span data-i18n="materials.lead">Les filières seront intégrées progressivement, selon les volumes, la demande et la viabilité logistique.</span></p></div>
-  <div class="materials-grid" id="materialGrid"></div>
-  <div class="material-detail" id="materialDetail"></div>
-</section>
-
-<section class="section intelligence">
-  <div class="split">
-    <div class="section-head reveal"><div class="eyebrow"><span data-i18n="ai.eyebrow">Intelligence</span></div><h2><span data-i18n="ai.title">L'IA au service de la circularité.</span></h2><p><span data-i18n="ai.lead">ECO-LOOP commence avec des règles métier et des données réelles. L'intelligence s'enrichit ensuite avec les transactions.</span></p></div>
-    <div class="ai-cards">
-      <div class="mini-card reveal"><b>01 · <span data-i18n="ai.1">Matching</span></b><p data-i18n="ai.1d">Identifier les correspondances pertinentes entre offres et besoins.</p></div>
-      <div class="mini-card reveal"><b>02 · <span data-i18n="ai.2">Qualification</span></b><p data-i18n="ai.2d">Assister l'identification d'une matière, notamment à partir d'une photo.</p></div>
-      <div class="mini-card reveal"><b>03 · <span data-i18n="ai.3">Prévision</span></b><p data-i18n="ai.3d">Anticiper les volumes disponibles et les besoins récurrents.</p></div>
-      <div class="mini-card reveal"><b>04 · <span data-i18n="ai.4">Anomalies</span></b><p data-i18n="ai.4d">Repérer les variations inhabituelles de poids, volume ou activité.</p></div>
-    </div>
-  </div>
-</section>
-
-<section class="section trace dark-section">
-  <div class="section-head reveal"><div class="eyebrow"><span data-i18n="trace.eyebrow">Traçabilité</span></div><h2><span data-i18n="trace.title">De la matière à sa seconde vie.</span></h2><p><span data-i18n="trace.lead">Chaque lot peut progressivement construire un historique vérifiable.</span></p></div>
-  <div class="timeline">
-    <div><b>01</b><span data-i18n="demo.declared">Déclarée</span></div><i></i><div><b>02</b><span data-i18n="demo.qualified">Qualifiée</span></div><i></i><div><b>03</b><span data-i18n="demo.collected">Collectée</span></div><i></i><div><b>04</b><span data-i18n="demo.weighed">Pesée</span></div><i></i><div><b>05</b><span data-i18n="demo.receptioned">Réceptionnée</span></div><i></i><div><b>06</b><span data-i18n="demo.valorized">Valorisée</span></div>
-  </div>
-  <p class="note"><span data-i18n="trace.note">La blockchain est une évolution possible pour renforcer la vérifiabilité de certains certificats ; elle n'est pas nécessaire au fonctionnement initial.</span></p>
-</section>
-
-<section class="section impact">
-  <div class="section-head reveal"><div class="eyebrow"><span data-i18n="impact.eyebrow">Impact</span></div><h2><span data-i18n="impact.title">Mesurer ce qui circule et ce qui retrouve une valeur.</span></h2></div>
-  <div class="stats">
-    <div><strong data-count="812">0</strong><span>kg · démonstration</span></div>
-    <div><strong data-count="12">0</strong><span>matières · cible</span></div>
-    <div><strong data-count="4">0</strong><span>acteurs · modèle</span></div>
-    <div><strong data-count="1">0</strong><span>ville · départ</span></div>
-  </div>
-</section>
-
-<section id="vision" class="vision section">
-  <div class="vision-box reveal">
-    <div><div class="eyebrow"><span data-i18n="vision.eyebrow">Notre vision</span></div><h2><span data-i18n="vision.title">Commencer à Yaoundé.<br>Construire pour le Cameroun.</span></h2><p><span data-i18n="vision.p">ECO-LOOP commence volontairement à petite échelle : quelques matières, quelques producteurs, valorisateurs et collecteurs. Le modèle s'étend à mesure que les chaînes de valorisation sont validées.</span></p></div>
-    <div class="map-path"><span>YAOUNDÉ</span><i>→</i><span>CAMEROUN</span><i>→</i><span>AFRIQUE</span></div>
-  </div>
-</section>
-
-<section class="cta section">
-  <div class="cta-box reveal"><div class="eyebrow">ECO-LOOP</div><h2><span data-i18n="cta.title">Et si votre déchet devenait la matière première de quelqu'un d'autre ?</span></h2><a class="btn btn-light btn-lg" href="demo.html"><span data-i18n="cta.button">Découvrir la démonstration →</span></a></div>
-</section>
-</main>
-<footer><div class="brand"><span class="brand-mark">↻</span><span>ECO<span>-</span>LOOP</span></div><div class="footer-contact"><p data-i18n="footer">Prototype conceptuel · Yaoundé, Cameroun</p><a class="whatsapp-link" href="https://wa.me/237680485422" target="_blank" rel="noopener noreferrer"><span>WhatsApp Mbôra</span> · +237 680 485 422</a></div></footer><a class="whatsapp-float" href="https://wa.me/237680485422" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Mbôra">☏<span>WhatsApp</span></a>
-<script src="js/i18n.js"></script><script src="js/data.js"></script><script src="js/landing.js"></script>
-</body>
-</html>
+<section class="hero"><div class="hero-copy reveal"><div class="eyebrow" data-i18n="hero.eyebrow">ECO-LOOP · Mbôra</div><h1 data-i18n="hero.title">Et si ce qui ne sert plus pouvait encore servir ailleurs ?</h1><p class="lead" data-i18n="hero.lead">ECO-LOOP aide à identifier les ressources disponibles, comprendre leur valeur et les connecter à un nouvel usage avant qu'elles ne deviennent une perte.</p><div class="actions"><a class="btn btn-orange btn-lg" href="demo.html" data-i18n="hero.cta">Explorer une boucle →</a><a class="text-link" href="#probleme" data-i18n="hero.link">Comprendre le problème ↓</a></div></div><div class="hero-visual reveal"><div class="resource-scene"><div class="pulse"></div><div class="resource-card rc1"><span class="tiny" data-i18n="hero.resourceTag">RESSOURCE</span><strong data-i18n="hero.resource">80 chaises</strong><small data-i18n="hero.resourceMeta">Bon état · Yaoundé</small></div><div class="resource-card rc2"><span class="tiny" data-i18n="hero.needTag">BESOIN</span><strong data-i18n="hero.need">Équipement</strong><small data-i18n="hero.needMeta">École · Yaoundé</small></div><div class="connector">↔</div><div class="center-orb"><span>↻</span><small data-i18n="hero.orb">VALEUR<br>EN CIRCULATION</small></div></div></div></section>
+<section id="probleme" class="section problem"><div class="section-head reveal"><div class="eyebrow" data-i18n="problem.eyebrow">Le problème réel</div><h2 data-i18n="problem.title">Une ressource peut perdre sa valeur avant de devenir un déchet.</h2><p data-i18n="problem.lead">Le problème n'est pas toujours l'absence de ressources. Elles peuvent être dispersées, invisibles, mal décrites, difficiles à transférer ou déconnectées d'un besoin.</p></div><div class="story-grid"><article class="story-card reveal"><span class="num">01</span><h3 data-i18n="problem.c1">On ne sait pas ce qui existe</h3><p data-i18n="problem.p1">Une entreprise, un chantier ou une organisation possède parfois des équipements, matériaux ou surplus dont personne d'autre ne connaît l'existence.</p></article><article class="story-card reveal"><span class="num">02</span><h3 data-i18n="problem.c2">On ne sait pas quoi en faire</h3><p data-i18n="problem.p2">Vendre, réparer, partager, donner, transformer ou réutiliser : la bonne trajectoire dépend de l'état, du besoin et du contexte.</p></article><article class="story-card reveal"><span class="num">03</span><h3 data-i18n="problem.c3">Le transfert peut échouer</h3><p data-i18n="problem.p3">Qualité, confiance, distance, stockage et transport peuvent empêcher une ressource encore utile de rejoindre son prochain usage.</p></article></div></section>
+<section class="section observation"><div class="split"><div class="section-head reveal"><div class="eyebrow" data-i18n="observe.eyebrow">Observer avant d'agir</div><h2 data-i18n="observe.title">ECO-LOOP commence par comprendre la ressource.</h2><p data-i18n="observe.lead">Comme SIGNAL transforme un signal en information exploitable, ECO-LOOP transforme une ressource déclarée en information utile à la décision.</p></div><div class="observation-board reveal"><div class="board-row"><span>01</span><b data-i18n="observe.r1">Ce qui existe</b><strong data-i18n="observe.r1v">80 chaises</strong></div><div class="board-row"><span>02</span><b data-i18n="observe.r2">État</b><strong data-i18n="observe.r2v">Bon état</strong></div><div class="board-row"><span>03</span><b data-i18n="observe.r3">Lieu</b><strong data-i18n="observe.r3v">Yaoundé</strong></div><div class="board-row"><span>04</span><b data-i18n="observe.r4">Possibilités</b><strong data-i18n="observe.r4v">Réemploi · réparation · transfert</strong></div></div></div></section>
+<section id="boucle" class="section dark"><div class="section-head reveal"><div class="eyebrow">ECO-LOOP</div><h2 data-i18n="loop.title">Identifier → comprendre → relier → agir → suivre.</h2><p data-i18n="loop.lead">La plateforme ne se limite pas à publier une annonce. Elle construit une boucle de valeur autour de la ressource.</p></div><div class="loop-steps"><article class="loop-step reveal"><b>01</b><span data-i18n="loop.s1">Identifier</span><p data-i18n="loop.p1">Déclarer une ressource disponible.</p></article><article class="loop-step reveal"><b>02</b><span data-i18n="loop.s2">Qualifier</span><p data-i18n="loop.p2">Décrire son état, sa quantité, son lieu et ses contraintes.</p></article><article class="loop-step reveal"><b>03</b><span data-i18n="loop.s3">Relier</span><p data-i18n="loop.p3">Trouver un besoin, un acteur ou une trajectoire pertinente.</p></article><article class="loop-step reveal"><b>04</b><span data-i18n="loop.s4">Agir</span><p data-i18n="loop.p4">Réparer, transférer, partager, transformer ou réutiliser.</p></article><article class="loop-step reveal"><b>05</b><span data-i18n="loop.s5">Suivre</span><p data-i18n="loop.p5">Enregistrer ce qui s'est réellement passé et la valeur récupérée.</p></article></div></section>
+<section id="preuve" class="section"><div class="section-head reveal"><div class="eyebrow" data-i18n="proof.eyebrow">La valeur après la déclaration</div><h2 data-i18n="proof.title">Une ressource devient une histoire vérifiable.</h2><p data-i18n="proof.lead">ECO-LOOP garde le fil : origine, état, correspondance, action et résultat. L'objectif est de construire de la confiance sans prétendre garantir une vérité absolue.</p></div><div class="trace-flow"><div class="trace-item reveal"><b>01</b><span data-i18n="proof.t1">Ressource déclarée</span></div><i></i><div class="trace-item reveal"><b>02</b><span data-i18n="proof.t2">Contexte qualifié</span></div><i></i><div class="trace-item reveal"><b>03</b><span data-i18n="proof.t3">Besoin identifié</span></div><i></i><div class="trace-item reveal"><b>04</b><span data-i18n="proof.t4">Action réalisée</span></div><i></i><div class="trace-item reveal"><b>05</b><span data-i18n="proof.t5">Résultat suivi</span></div></div></section>
+<section class="section usecases"><div class="section-head reveal"><div class="eyebrow" data-i18n="cases.eyebrow">Même logique, plusieurs situations</div><h2 data-i18n="cases.title">Pas seulement des déchets. Des ressources, des besoins et des possibilités.</h2></div><div class="case-grid"><article class="case reveal"><span data-i18n="cases.tag.entreprise">ENTREPRISE</span><h3 data-i18n="cases.c1">Un bureau ferme</h3><p data-i18n="cases.p1">Mobilier et équipements sont identifiés, qualifiés puis proposés à des acteurs qui peuvent les réutiliser.</p></article><article class="case reveal"><span data-i18n="cases.tag.chantier">CHANTIER</span><h3 data-i18n="cases.c2">Un chantier termine</h3><p data-i18n="cases.p2">Des matériaux encore utilisables sont repérés avant leur stockage ou leur élimination.</p></article><article class="case reveal"><span data-i18n="cases.tag.industrie">INDUSTRIE</span><h3 data-i18n="cases.c3">Un flux devient disponible</h3><p data-i18n="cases.p3">Un sous-produit ou stock dormant peut être relié à un autre usage productif.</p></article><article class="case reveal"><span data-i18n="cases.tag.individu">INDIVIDU</span><h3 data-i18n="cases.c4">Un équipement ne sert plus</h3><p data-i18n="cases.p4">ECO-LOOP cherche d'abord une nouvelle utilisation, une réparation ou un transfert.</p></article></div></section>
+<section class="section intelligence"><div class="intelligence-box reveal"><div><div class="eyebrow" data-i18n="ai.eyebrow">Intelligence</div><h2 data-i18n="ai.title">Plus il y a de boucles, plus le système apprend.</h2><p data-i18n="ai.lead">Le matching peut commencer avec des règles simples. Les données issues des boucles réelles peuvent ensuite améliorer les correspondances et les recommandations.</p></div><div class="signal-lines"><div><b data-i18n="ai.r1">Ressource</b><span>→</span><b data-i18n="ai.r1b">Besoin</b></div><div><b data-i18n="ai.r2">État</b><span>→</span><b data-i18n="ai.r2b">Trajectoire</b></div><div><b data-i18n="ai.r3">Résultat</b><span>→</span><b data-i18n="ai.r3b">Nouvelle connaissance</b></div></div></div></section>
+<section class="section vision"><div class="vision-box reveal"><div><div class="eyebrow" data-i18n="vision.eyebrow">Vision Mbôra</div><h2 data-i18n="vision.title">Faire circuler la valeur avant qu'elle ne soit perdue.</h2><p data-i18n="vision.p">Commencer avec des cas simples et mesurables à Yaoundé, apprendre des usages réels, puis étendre progressivement les boucles et les acteurs.</p></div><div class="path"><span data-i18n="vision.city1">YAOUNDÉ</span><i>→</i><span data-i18n="vision.city2">CAMEROUN</span><i>→</i><span data-i18n="vision.city3">AFRIQUE</span></div></div></section>
+<section class="cta"><div class="cta-box reveal"><div class="eyebrow">ECO-LOOP</div><h2 data-i18n="cta.title">Avant de jeter, remplacer ou acheter : regardons ce qui existe déjà.</h2><div class="actions center"><a class="btn btn-orange btn-lg" href="demo.html" data-i18n="cta.demo">Explorer la démo</a><a class="btn btn-outline-light" href="https://wa.me/237680485422" target="_blank" rel="noopener" data-i18n="cta.contact">Parler à Mbôra sur WhatsApp</a></div></div></section>
+</main><footer><div class="brand"><span class="brand-mark">↻</span><span>ECO<span>-</span>LOOP</span></div><div class="footer-contact"><span data-i18n="footer">Prototype conceptuel · Yaoundé, Cameroun</span><a href="https://wa.me/237680485422" target="_blank" rel="noopener" data-i18n="contact.whatsapp">WhatsApp Mbôra · +237 680 485 422</a></div></footer><a class="whatsapp-float" href="https://wa.me/237680485422" target="_blank" rel="noopener" data-i18n-aria="contact.aria" aria-label="WhatsApp Mbôra">☏</a><script src="js/i18n.js"></script><script src="js/landing.js"></script></body></html>
